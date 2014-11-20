@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions to allow for caching of result of a (potentially long-running)
+## calculation of a matrix inverse. A solution for the programming assignment
+## "2" of R Programming Coursera course.
 
-## Created a special "matrix" object that can cache its inverse.
+## Creates a special "matrix" object that can cache its inverse.
 ## The object is internally a list of functions allowing to manipulate the 
 ## associated matrix data and its cached value of inverse matrix.
 
